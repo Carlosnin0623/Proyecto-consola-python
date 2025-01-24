@@ -16,7 +16,8 @@ if opcion == "crear":
    resultado =  Acciones()
    resultado.registrar_usuario()
 elif opcion == "login":
-    True
+    resultado =  Acciones()
+    resultado.identificar()
 elif opcion == "salir":
     exit()
 
